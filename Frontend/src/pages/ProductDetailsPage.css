@@ -1,0 +1,158 @@
+.product-details-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  margin-bottom: 64px;
+}
+
+.product-image-container {
+  background: var(--bg-card);
+  border: 1px solid var(--border-1);
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.product-details-img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  object-fit: contain;
+}
+
+.product-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product-details-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-1);
+  margin: 16px 0;
+  line-height: 1.2;
+}
+
+.product-details-rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.rating-value {
+  font-weight: 600;
+  color: var(--text-1);
+}
+
+.review-count {
+  color: var(--text-3);
+  font-size: 0.875rem;
+}
+
+.product-details-price {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--blue);
+  margin-bottom: 24px;
+}
+
+.product-details-desc {
+  font-size: 1.125rem;
+  color: var(--text-2);
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+
+.product-details-status {
+  margin-bottom: 32px;
+  font-weight: 500;
+}
+
+.product-details-actions {
+  display: flex;
+  gap: 16px;
+}
+
+/* Reviews Section */
+.reviews-section {
+  margin-top: 48px;
+  padding-top: 48px;
+  border-top: 1px solid var(--border-1);
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 32px;
+  color: var(--text-1);
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 32px;
+}
+
+.reviews-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.empty-reviews {
+  padding: 32px;
+  text-align: center;
+  background: var(--bg-card);
+  border: 1px dashed var(--border-2);
+  border-radius: 12px;
+  color: var(--text-3);
+}
+
+.review-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-1);
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.review-header strong {
+  font-size: 1rem;
+  color: var(--text-1);
+}
+
+.review-comment {
+  color: var(--text-2);
+  line-height: 1.5;
+}
+
+.login-prompt-card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 32px 24px;
+}
+
+@media (max-width: 900px) {
+  .product-details-layout {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  
+  .reviews-grid {
+    grid-template-columns: 1fr;
+  }
+}
