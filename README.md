@@ -99,5 +99,5 @@ npm run start
 ---
 
 <p align="center">
-  <i>Developed with ❤️ by CH AVINASH REDDY</i>
+  <i>Developed by CH AVINASH REDDY</i>
 </p>
