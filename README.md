@@ -60,8 +60,8 @@ To run this project locally, follow these steps:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/avinashreddych21/ShopEZ---E---COMMERCE-PLATFORM.git
-cd ShopEZ---E---COMMERCE-PLATFORM
+git clone https://github.com/avinashreddych21/ShopEZ-E-COMMERCE-PLATFORM.git
+cd ShopEZ-E-COMMERCE-PLATFORM
 ```
 
 ### 2. Setup the Backend
@@ -99,5 +99,5 @@ npm run start
 ---
 
 <p align="center">
-  <i>Developed with ❤️ by Avinash Reddy</i>
+  <i>Developed with ❤️ by CH AVINASH REDDY</i>
 </p>
